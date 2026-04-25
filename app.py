@@ -9,7 +9,7 @@ st.write("Compila i campi per inviare la mail di assistenza al fornitore.")
 
 # Modulo di inserimento dati
 with st.form("form_ticket"):
-    fornitore_email = "assistenza@fornitore.it" # Email del tuo fornitore
+    fornitore_email = "rignanese.noemi@gmail.com" # Email del tuo fornitore
     oggetto_base = st.text_input("Oggetto del problema", placeholder="es. Errore Login Portale")
     priorita = st.select_slider("Priorità", options=["Bassa", "Media", "Alta", "URGENTE"])
     descrizione = st.text_area("Descrizione dettagliata", help="Inserisci codici errore o passaggi per replicare")
